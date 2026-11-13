@@ -17,5 +17,6 @@ $query = trim($_GET["query"] ?? "");
         <button type="submit">Cari</button>
     </form>
     <p>Hasil untuk: <?= htmlspecialchars($query, ENT_QUOTES, "UTF-8") ?></p>
+    
 </body>
 </html>
